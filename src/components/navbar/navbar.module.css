@@ -1,0 +1,38 @@
+.nav{
+    justify-self: end;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    background:linear-gradient(90deg,#2b1c70 0%,#0d042f 100%) ;
+}   
+
+.logo img{
+    width: 200px;
+    height: 60px;
+}
+.content{
+    color:white;
+    /* border: 1px solid black; */
+    /* padding-top: 15px; */
+    list-style: none;
+    gap:35px;
+    justify-content: end;
+    display: flex;
+    width:80% ;
+    margin-right: 10px;
+
+}
+.content li{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.content li:hover{
+    background:linear-gradient(#7463b1 0%,#1c123e 100%);;
+    cursor: pointer;
+}
+.mobile .content{
+    display:none;
+}

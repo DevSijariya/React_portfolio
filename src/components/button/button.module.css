@@ -1,0 +1,18 @@
+.container{
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background: linear-gradient(#7463b1 0%,#1c123e 100%);
+    justify-content:center;  
+    align-items: center;
+    display: flex;
+}
+.container h1{
+    font-size: 22px;
+    color: white;
+}
+.container:hover{
+    cursor: pointer;
+    background: linear-gradient(#7463b1 0%,#0e0a1e 100%);
+}
