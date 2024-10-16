@@ -1,7 +1,10 @@
 import styles from "./home.module.css";
-
 import Button from "../button/Button";
+import { MdOutlineFlipCameraAndroid } from "react-icons/md";
 import React, { useState , useEffect} from "react";
+import { FaGit, FaHtml5, FaPython, FaReact } from "react-icons/fa";
+import { SiDjango, SiMysql, SiOpencv } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
 const Home = () => {
 
@@ -35,9 +38,12 @@ const Home = () => {
           <img src="./images/my.jpg" alt="Back Image" className={styles.image2} />
         </div>
       </div>
-        <div className={`${styles.box} ${isMobile ? styles.mobile : ""}`}>
-        <Button  text="Flip Image" onClick={handleFlip}/> 
-        <Button  text="Download CV"/>
+        <div className={styles.box1}>
+        <MdOutlineFlipCameraAndroid  text="Flip Image" onClick={handleFlip} /> 
+        </div>
+        <div className={styles.box} >
+        {/* <MdOutlineFlipCameraAndroid text="Flip Image" onClick={handleFlip} />  */}
+        <Button  text=" Download CV "/>
         </div>
       </div>
       <div className={styles.left}>
@@ -45,6 +51,25 @@ const Home = () => {
           Hello Everyone,
           <br />I am Sanskar Sijariya Passionate Software Developer
         </h1>
+        <div className={styles.iconsbox}>
+        <div className={styles.marquee}>
+    <FaPython />
+    <SiDjango />
+    <FaHtml5 />
+    <IoLogoJavascript />
+    <FaReact />
+    <SiMysql />
+    <FaGit />
+    {/* Duplicate icons */}
+    <FaPython />
+    <SiDjango />
+    <FaHtml5 />
+    <IoLogoJavascript />
+    <FaReact />
+    <SiMysql />
+    <FaGit />
+  </div>
+        </div>
         <p>
           I’m a B.Tech IT graduate passionate about data science and software
           development, with hands-on experience in machine learning, Django, and

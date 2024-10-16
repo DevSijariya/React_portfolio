@@ -49,8 +49,10 @@
 .box{
     /* width: 600px; */
     /* border:1px solid black; */
-    margin-top: 100px;
-    margin-bottom:-100px;
+    color: white;
+    font-size:40px;
+    margin-top: 150px;
+    margin-bottom:-150px;
     display: flex;
     gap: 200px;
 }
@@ -90,13 +92,106 @@ width: 350px;
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    flex-direction: column;    
   }
   .mobile .image{
-    margin-left:1%;
-    margin-right: 10%;
-    width: 80%;
-    margin-top: 10px;
-    border: 1px solid black;
+    margin-left:-0px;
+    /* border: 1px solid black; */
+    /* margin-right: 10%; */
+    width:  100%;
+    height: 200p;
+    margin-top: -200px;
+    /* border: 1px solid black; */
     /* margin-top: 2%; */
+    position: relative;
+    /* padding-left: -px; */
+
+  }
+  .mobile .front,.mobile .back{
+    width: 85%;
+    /* border: 1px solid black; */
+    margin-left: -15%;
+  }
+  
+  
+  .mobile .front img{
+    width: 80%;
+    height: 200%;
+  }
+  .mobile .image2{
+    width: 80%;
+    margin-top: -200px;
+    margin-left: -0px;
+    
+  }
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .iconsbox{
+    color:white;
+    font-size:35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+    margin:25px 0;
+    overflow: hidden;
+   
+  }
+  
+
+  .marquee {
+    display: inline-flex;
+    gap: 60px; /* Adjust the space between icons */
+    animation: moveRight 10s linear infinite; /* Adjust time (10s) for speed control */
+  }
+
+
+
+  .box1{
+    font-size: 30px;
+    color: white;
+    margin-top:-150px;
+    margin-left:-600px ;
+  }
+  .mobile .box1{
+    display: flex;
+    margin-top:60%;
+    margin-left:90% ;
+    display: block;
+    color: white;
+    font-size: 25px;
+    /* border: 1px solid black; */
+  }
+
+  .mobile .box{
+    display: flex;
+    margin-top:80%;
+    margin-left: 100%;
+
+    display: none;
+  }
+  
+
+  .mobile .left{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-left:10%;
+    /* margin-right:20%; */
+    margin-top: -180px;
+  }
+  .mobile .left h1{
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .mobile .left p{
+    margin-top:20px;
+    font-size: 1.2em;
   }

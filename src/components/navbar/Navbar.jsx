@@ -1,3 +1,4 @@
+import { BiMenuAltRight } from "react-icons/bi";
 import styles from "./navbar.module.css"
 import React, { useState , useEffect} from "react";
 const Navbar = () => {
@@ -29,6 +30,9 @@ const Navbar = () => {
                 <li>Contact Me</li>
             
         </div>
+                <div className={styles.menu}>
+                <BiMenuAltRight/>
+                </div>
     </div>
   )
 }

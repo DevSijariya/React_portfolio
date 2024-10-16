@@ -36,3 +36,19 @@
 .mobile .content{
     display:none;
 }
+.menu{
+    color:white;
+    font-size:40px;
+    margin-top: 2.5px;
+    display: none;
+}
+.mobile .menu{
+    display: block;
+    justify-content: end;
+    width: 80%;
+    display: flex;
+    margin-right: 2%;
+}
+.mobile .menu:hover{
+    cursor: pointer;
+}
