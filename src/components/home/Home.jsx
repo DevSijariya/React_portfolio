@@ -74,8 +74,9 @@ const Home = () => {
           I’m a B.Tech IT graduate passionate about data science and software
           development, with hands-on experience in machine learning, Django, and
           React.js. I’ve built projects like stock price predictors, portfolio
-          builders, and Power BI dashboards. Skilled in Python, SQL, and web
+          builders, Skilled in Python, SQL, and web
           development
+          
         </p>
       </div>
     </div>
