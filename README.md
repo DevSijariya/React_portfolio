@@ -1,3 +1,6 @@
+### About
+I developed a responsive portfolio using React.js to showcase my skills and projects. The portfolio features clean design, intuitive navigation, and adaptability across different devices, serving as a platform to display my work and learn front-end development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
